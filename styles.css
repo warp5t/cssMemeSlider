@@ -11,8 +11,8 @@ body {
   }
 
   .slider {
-    width: 600px;
-    height: 400px;
+    width: 1000px;
+    height: 650px;
     position: relative;
     overflow: hidden;
   }
@@ -75,3 +75,4 @@ body {
   #radio2:checked ~ .controls label:nth-child(2) { background-color: #333; }
   #radio3:checked ~ .controls label:nth-child(3) { background-color: #333; }
   #radio4:checked ~ .controls label:nth-child(4) { background-color: #333; }
+  #radio4:checked ~ .controls label:nth-child(5) { background-color: #333; }
