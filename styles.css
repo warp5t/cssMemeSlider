@@ -49,6 +49,16 @@ body {
   font-size: 2em;
   padding: 1% 2% 1% 2%;
 }
+@media(max-width:450px) {
+  .caption {
+    font-size: 1.5em;
+  }
+}
+@media(max-width:320px) {
+  .caption {
+    font-size: 1.1em;
+  }
+}
 
 .controls {
   display: flex;
@@ -82,6 +92,12 @@ body {
   .controls label {
     width: 1em;
     height: 1em;
+  }
+}
+@media (max-width:320px) {
+  .controls label {
+    width: 0.6em;
+    height: 0.6em;
   }
 }
 
